@@ -30,4 +30,6 @@ return newArray;
 
 ///#3 
 
-
+function iLoveTheBeatles(n){
+  var emptyArray= [];
+}
