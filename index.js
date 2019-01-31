@@ -36,7 +36,7 @@ function iLoveTheBeatles(n){
   do{
     lastArray.push(loveBeatles);
     n++;
-  }
+    }
   while(n<15);
   
   return lastArray;
