@@ -17,7 +17,7 @@ return theBeatles;
 
 function johnLennonFacts(facts){
    let newArray =[]; 
-   let i= 0
+   let i= 0;
    
   while ( i < facts.length) {
     newArray.push(facts[i] + "!!!" );  
@@ -31,5 +31,13 @@ return newArray;
 ///#3 
 
 function iLoveTheBeatles(n){
-  var emptyArray= [];
+  var lastArray= [];
+  var loveBeatles = "I love the Beatles!";
+  do{
+    lastArray.push(loveBeatles);
+    n++;
+  }
+  while(n<15);
+  
+  return lastArray;
 }
